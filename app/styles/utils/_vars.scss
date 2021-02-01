@@ -1,0 +1,21 @@
+//======================================
+//  VARIBLES
+//======================================
+:root {
+	--main-fontFamily: "Roboto", sans-serif;
+	--fz-base: 1.6rem;
+	--fw-base: 400;
+	--lh-base: 22px;
+	--accent-color: #363636;
+	--error-color: #ff1d25;
+	--success-color: #008f00;
+	--maxwidth-container: 1030px;
+	--container-gutter-x: 0 1.5rem;
+	--radius-default: 4px;
+	--radius-large: 100px;
+	--shadow-default: 0 20px 50px rgba(111, 118, 217, 0.15);
+	--shadow-default-secondary: 0 4px 10px rgba(0, 0, 0, 0.12);
+	--transition-base: all 0.2s ease-in-out;
+	--transition-fade: opacity 0.15s linear;
+	--transition-collapse: height 0.35s ease;
+}

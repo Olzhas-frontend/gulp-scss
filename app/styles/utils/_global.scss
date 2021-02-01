@@ -1,0 +1,67 @@
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+img,
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	outline: none;
+	font: inherit;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.container {
+	margin: 0 auto;
+	padding: var(--container-gutter-x);
+	width: 100%;
+	max-width: var(--maxwidth-container);
+	&-fluid {
+		margin: 0 auto;
+		padding: var(--container-gutter-x);
+		width: 100%;
+	}
+	@include md_phones {
+		max-width: 540px;
+	}
+	@include md_tablets {
+		max-width: 540px;
+	}
+	@include md_desktops {
+		max-width: 960px;
+	}
+	@include md_lg {
+		max-width: 1030px;
+	}
+}
+
+body {
+	font-family: var(--main-fontFamily);
+	font-weight: var(--fw-base);
+	font-size: var(--fz-base);
+	line-height: var(--lh-base);
+	color: var(--accent-color);
+}
+
+.page {
+	overflow: hidden;
+}
